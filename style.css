@@ -1,0 +1,41 @@
+@font-face {
+    font-family:gilroy-bold ;
+    src: url(fonts/Gilroy-ExtraBold.otf);
+}
+@font-face {
+    font-family:gilroy-light ;
+    src: url(fonts/Gilroy-Light.otf);
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+p{
+    font-family: gilroy-light;
+    font-family: gilroy-bold;
+    font-size: 20px;
+    line-height:normal;
+    line-break: normal;
+    letter-spacing: px;
+    word-spacing: 100px;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: dashed;
+    text-shadow: 10px 10px 10px grey;
+    
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    overflow: hidden;
+    box-sizing: content-box;
+    padding: 50px 30px 50px 20px;
+
+}
+
+.card{
+    
+}
